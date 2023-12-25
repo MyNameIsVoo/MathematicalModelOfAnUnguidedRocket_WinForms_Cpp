@@ -1,0 +1,4 @@
+
+		Raspredelnie
+
+max = 2.04	min = -1.01h = 0.153
