@@ -75,8 +75,8 @@ namespace MathematicalModelOfAnUnguidedRocket {
 	private: System::Windows::Forms::ToolStripStatusLabel^  toolStripStatusLabel5;
 	private: System::Windows::Forms::ToolStripStatusLabel^  toolStripStatusLabel6;
 private: System::Windows::Forms::ToolStripStatusLabel^  toolStripStatusLabel7;
-private: System::Windows::Forms::ToolStripStatusLabel^  toolStripStatusLabel8;
-private: System::Windows::Forms::ToolStripStatusLabel^  toolStripStatusLabel9;
+
+
 private: System::Windows::Forms::TabPage^  tabPage16;
 private: System::Windows::Forms::TabPage^  tabPage18;
 private: System::Windows::Forms::TabPage^  tabPage17;
@@ -273,8 +273,6 @@ private: System::Windows::Forms::Label^  label38;
 			this->checkBox6 = (gcnew System::Windows::Forms::CheckBox());
 			this->statusStrip2 = (gcnew System::Windows::Forms::StatusStrip());
 			this->toolStripStatusLabel7 = (gcnew System::Windows::Forms::ToolStripStatusLabel());
-			this->toolStripStatusLabel8 = (gcnew System::Windows::Forms::ToolStripStatusLabel());
-			this->toolStripStatusLabel9 = (gcnew System::Windows::Forms::ToolStripStatusLabel());
 			this->tabControl1->SuspendLayout();
 			this->tabPage17->SuspendLayout();
 			this->tabControl8->SuspendLayout();
@@ -940,10 +938,7 @@ private: System::Windows::Forms::Label^  label38;
 			this->checkBox6->TabIndex = 3;
 			this->checkBox6->Text = L"Угол наклона";
 			this->checkBox6->UseVisualStyleBackColor = true;
-			this->statusStrip2->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->toolStripStatusLabel7,
-					this->toolStripStatusLabel8, this->toolStripStatusLabel9
-			});
+			this->statusStrip2->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->toolStripStatusLabel7 });
 			this->statusStrip2->Location = System::Drawing::Point(0, 604);
 			this->statusStrip2->Name = L"statusStrip2";
 			this->statusStrip2->Size = System::Drawing::Size(989, 22);
@@ -953,12 +948,6 @@ private: System::Windows::Forms::Label^  label38;
 			this->toolStripStatusLabel7->Name = L"toolStripStatusLabel7";
 			this->toolStripStatusLabel7->Size = System::Drawing::Size(101, 17);
 			this->toolStripStatusLabel7->Text = L"Ерочин Семен ©";
-			this->toolStripStatusLabel8->Name = L"toolStripStatusLabel8";
-			this->toolStripStatusLabel8->Size = System::Drawing::Size(91, 17);
-			this->toolStripStatusLabel8->Text = L"Группа А-522®";
-			this->toolStripStatusLabel9->Name = L"toolStripStatusLabel9";
-			this->toolStripStatusLabel9->Size = System::Drawing::Size(31, 17);
-			this->toolStripStatusLabel9->Text = L"2015";
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(989, 626);
